@@ -3,8 +3,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: saps-pyspark-jupyter
-    hostname: saps-master
+    container_name: yelp-pyspark-jupyter
+    hostname: yelp-master
 
     # Add network mode
     network_mode: bridge

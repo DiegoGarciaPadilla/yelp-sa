@@ -6,6 +6,9 @@ ipywidgets==8.1.1
 # PySpark (don't install, use SPARK_HOME)
 findspark==2.0.1
 
+# SciKit Learn
+scikit-learn==1.7.2
+
 # Data manipulation
 pandas==2.1.4
 numpy==1.26.2
