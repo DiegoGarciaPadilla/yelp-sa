@@ -36,10 +36,10 @@ services:
 
     environment:
       - SPARK_MASTER=local[*]
-      - SPARK_DRIVER_MEMORY=6g
-      - SPARK_EXECUTOR_MEMORY=3g
-      - SPARK_DRIVER_MAX_RESULT_SIZE=3g
-      - PYSPARK_SUBMIT_ARGS=--driver-memory 6g --executor-memory 3g pyspark-shell
+      - SPARK_DRIVER_MEMORY=8g
+      - SPARK_EXECUTOR_MEMORY=4g
+      - SPARK_DRIVER_MAX_RESULT_SIZE=4g
+      - PYSPARK_SUBMIT_ARGS=--driver-memory 8g --executor-memory 4g pyspark-shell
       # Add these for better network handling
       - REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
       - CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt

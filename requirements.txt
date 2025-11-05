@@ -22,6 +22,9 @@ html5lib==1.1
 datasets==2.15.0
 huggingface-hub==0.20.0
 
+# Kaggle
+kagglehub==0.3.13
+
 # Visualization
 matplotlib==3.8.2
 seaborn==0.13.0
