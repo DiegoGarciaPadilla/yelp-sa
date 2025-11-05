@@ -1,5 +1,3 @@
-# Sentiment-Aware Portfolio Strategy
+# Yelp Reviews Sentiment Analysis Model
 
 **Author:** Diego Antonio García Padilla
-
-Quantifying market emotions to beat traditional portfolio strategies
