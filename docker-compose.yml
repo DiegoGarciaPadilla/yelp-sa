@@ -32,6 +32,7 @@ services:
       - ./notebooks:/workspace/notebooks
       - ./data:/workspace/data
       - ./scripts:/workspace/scripts
+      - ./models:/workspace/models
       - spark-tmp:/tmp/spark
 
     environment:
